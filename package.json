@@ -1,0 +1,22 @@
+{
+  "name": "task-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "Mohammad Faisal Khan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5",
+    "validator": "^12.2.0"
+  }
+}
